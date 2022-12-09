@@ -2,7 +2,7 @@ use std::fs::File;
 use std::io::{self, prelude::*, BufReader};
 
 fn main() -> io::Result<()> {
-    let file = File::open("advent_day1.txt")?;
+    let file = File::open("day1_input.txt")?;
     let reader = BufReader::new(file);
 
     let mut current = 0;

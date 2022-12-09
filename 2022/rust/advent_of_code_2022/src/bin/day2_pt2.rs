@@ -12,7 +12,7 @@ fn main() -> io::Result<()> {
     //xyz = lose tie win
     //lose 0pt tie 3pt win 6pts
 
-    let file = File::open("../input.txt")?;
+    let file = File::open("day2_input.txt")?;
     let reader = BufReader::new(file);
 
     let mut score = 0;
